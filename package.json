@@ -1,0 +1,18 @@
+{
+  "name": "oop-building-block-1",
+  "version": "1.0.0",
+  "description": "The Home Task - OOP Building Block",
+  "dependencies": {
+    "typescript": "^4.5.2"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/usage.ts",
+    "start": "ts-node ./src/usage.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0"
+  }
+}
