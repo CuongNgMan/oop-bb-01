@@ -1,4 +1,3 @@
-// your code goes here
 import { Item } from './Item';
 
 export abstract class Weapon extends Item {
@@ -12,8 +11,9 @@ export abstract class Weapon extends Item {
   constructor(name: string, baseDamage: number, baseDurability: number, value: number, weight: number) {
     super(name, value, weight);
 
-    this.baseDamage = baseDamage;
     this.validateDurability(baseDurability);
+
+    this.baseDamage = baseDamage;
     this.baseDurability = baseDurability;
     this.damageModifier = 0;
     this.durabilityModifier = 0;

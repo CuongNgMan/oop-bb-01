@@ -36,12 +36,19 @@ inventory.sort(new ItemWeightComparator());
 console.log('Display the inventory');
 console.log(inventory.toString());
 
+console.log('-----Verifying durability usage-----');
+verifyDurabilityUsage();
+console.log('-----Verifying sword polish-----');
+verifySwordPolish();
+console.log('-----Verifying bow polish-----');
+verifyBowPolish();
+console.log('-----Verifying broken sword-----');
+verifyBrokenSword();
+
 // Use the sword
 function verifyDurabilityUsage() {
-  console.log(a.use());
-  console.log(a.getDurability());
-  console.log(a.use());
-  console.log(a.getDurability());
+  console.log(`${a.use()}-Durability: ${a.getDurability()}`);
+  console.log(`${a.use()}-Durability: ${a.getDurability()}`);
 }
 
 // Verify Sword polish

@@ -1,6 +1,5 @@
 import { Item } from './Item';
 
-// your code goes here
 export abstract class Consumable extends Item {
   private consumed: boolean;
   private spoiled: boolean;

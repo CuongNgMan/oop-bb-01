@@ -1,5 +1,4 @@
 import { Consumable } from './Consumable';
-import { Item } from './Item';
 
 export class Pizza extends Consumable {
   static readonly defaultName = 'pizza';
